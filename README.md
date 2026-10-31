@@ -64,3 +64,16 @@ It also helped me connect my previous experience investigating AML alerts and do
 Screenshots of the Splunk environment, Windows Event Logs, and investigation findings can be added here as available.
 
 All documented activities were performed in a controlled laboratory environment.
+
+
+### Windows Failed Logon Analysis — Event ID 4625
+
+Used Splunk Enterprise to examine Windows Security Event ID 4625,
+which records failed authentication attempts.
+
+The search returned 7,842 events over the selected 24-hour period.
+
+Reviewed authentication failures, account names, timestamps,
+source IP addresses, and unusual patterns of failed logon activity.
+
+![Splunk Failed Logon Analysis](Splunk-Windows-EventID-4625-Failed-Logons.png)
